@@ -5,6 +5,7 @@ Welcome to Avengers Hunt, a web application that allows you to select and hire a
 ## Table of Contents
 - [Features](#features)
 - [Contributing](#contributing)
+- [Live Link](#live_link)
 
 ## Features
 Actor Selection: Browse and select from a list of available actors.
@@ -21,4 +22,7 @@ Make your changes and commit them with descriptive commit messages.
 Push your changes to your fork.
 Create a pull request to the main repository.
 Please review Github Contributing Guidelines for more details.
+
+## Live Link
+To get complete glimse of the project, please visit https://mellifluous-faun-1658e1.netlify.app/
 
