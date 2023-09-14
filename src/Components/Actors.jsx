@@ -10,7 +10,7 @@ export default function Actors({ handleHire }) {
     }, [])
 
     return (
-        <div className='bg h-full py-12 px-8 grid grid-cols-2 gap-6 w-2/3'>
+        <div className='bg h-full py-12 px-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full md:w-2/3'>
             {actors.map((actors, idx) => <Actor key={idx} actors={actors} handleHire={handleHire}></Actor>)}
         </div>
     )

@@ -46,7 +46,7 @@ function App() {
     <>
       <Header></Header>
       <div style={mainStyle}>
-        <div className='w-[85%] mx-auto flex'>
+        <div className='w-[85%] mx-auto flex flex-col-reverse md:flex-row'>
           <Actors handleHire={handleHire}></Actors>
           <SelectActors remainingCost={remainingCost} totalCost={totalCost} hireActors={hireActors}></SelectActors>
         </div>
